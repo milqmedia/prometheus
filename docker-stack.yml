@@ -31,7 +31,7 @@ services:
         constraints:
           - node.role==manager
           - node.labels.milq.monitoring==true
-          - node.labels.milq.monitoring_manager==true
+          - node.labels.milq.monitoring.manager==true
 
   node-exporter:
     image: prom/node-exporter
